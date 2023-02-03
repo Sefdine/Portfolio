@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+    color: rgb(241, 231, 231)
+}
+a{
+    text-decoration: none;
+}
+
+/* Navbar */
+.section1{
+    width:  100%;
+    height: 100vh;
+    background-image: url(images/bg-image.png);
+    background-size: cover;
+    background-position: center;
+}
+.section1 nav{
+    background-color: rgba(45, 10, 10, 0.644);
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+.section1 nav .one{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.section1 nav .one h2{
+    color: rgb(230, 21, 104);
+}
+.section1 nav .two{
+    margin: auto;
+}
+.section1 nav .two ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.section1 nav .two ul li{
+    margin-left: 25px;
+}
+.section1 nav .two ul a strong:hover{
+    color: rgb(230, 21, 104);
+}
+.section1 nav .three{
+    margin-left: 20px;
+    border: 5px solid rgb(230, 21, 104);
+    border-radius: 40px;
+    width: max-content;
+    padding: 10px;
+}
+.section1 nav .three:hover{
+    background-color: rgb(230, 21, 104);
+    transition: 0.4s;
+}
+
+/* Section 1 corp */
+.section1 p, h1, h2, h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Group images */
+.section1 .group .images{
+    position: absolute;
+    margin-top: 20vh;
+    left: 49%;
+}
+.section1 .group .images .element1{
+    border: 8px solid yellow;
+    border-radius: 20%;
+}
+.section1 .group:hover .element1{
+    border: none;
+    transition:1s;
+}
+.section1 .group .images .element2{
+    position: absolute;
+    top: 16px;
+    left: 150px;
+    width: calc(143px + 40px);
+    border: 8px solid yellow;
+    border-radius: 50%;
+}
+.section1 .group:hover .element2{
+    top: 35px;
+    left: 170px;
+    width: 143px;
+    border: 8px solid rgb(230, 21, 104);
+    border-radius: 50%;
+    transition: 1.5s;
+}
+
+/* Group whoami */
+.section1 .group .whoami h1{
+    width: 70%;
+    color: rgb(28, 25, 25);
+}
+.section1 .group:hover .whoami h1{
+    width: 100%;
+    color: rgb(225, 213, 216);
+    transition: 0,5s;
+}
+.section1 .group .whoami{
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 30vh;
+    font-size: 1.1em;
+}
+.section1 .whoami .go-right{
+    margin-left: 10px;
+}
+.section1 .whoami .full{
+    color: rgb(255, 217, 0);
+    margin-left:10px;
+}
+.section1 .whoami .stack{
+    color: rgb(28, 25, 25);
+}
+.section1 .whoami .developper{
+    font-size: 2.4em;
+    color: rgb(255, 217, 0);
+}
